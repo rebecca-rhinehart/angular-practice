@@ -1,0 +1,30 @@
+#app {
+    
+    #word, #definition {
+        text-align: center;
+        // padding: 20px;
+        background-color: lightblue;
+    }
+    #word {
+        margin-bottom: 30px;
+        min-height: 115px;
+        h1 {
+            padding-top: 30px;
+        }
+    }
+    #definition {
+        padding: 30px;
+    }
+}
+.button-container {
+    width: fit-content;
+    margin: auto;
+    #button {
+        background-color: red;
+        color: white;
+        font-size: 30px;
+        padding: 20px;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+}
